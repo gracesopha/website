@@ -1,15 +1,15 @@
 // framer page footer
+import React from "react";
 import { Link } from "react-router-dom";
+import home from "../imgs/home.png"
 
 export function Footer({ title = "" }) {
   return (
     <footer>
       <a
-        href="https://www.framer.com/docs/scroll-animations/"
-        target="_blank"
-        rel="noreferrer"
+        href="/"
       >
-        <code>{title}</code>
+        <img id="homepage" alt="homepage" className="homepage" src={home}/>
       </a>
       <nav>
           <Link to="/">home</Link>
