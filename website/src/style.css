@@ -64,12 +64,10 @@ body {
     font-weight: 400;
     font-size: 14px;
     font-style: normal;
-    position: relative;
+    position: absolute;
+    text-align: center;
     top: 1em;
-    left: 30em;
-    right: 0;
-    display: flex;
-    justify-content: center;
+    right: 1%;
   }
   
   footer {
