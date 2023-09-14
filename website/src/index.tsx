@@ -5,7 +5,7 @@ import { StrictMode } from "react";
 import * as ReactDOMClient from "react-dom/client";
 import App from "./App";
 import Nav from "./Nav";
-import Header from "./Header";
+import Home from "./Home";
 import Example from "./Carousel";
 import { Footer } from "./template/Footer";
 
@@ -16,7 +16,6 @@ root.render(
   <StrictMode>
     <BrowserRouter>
     <Nav />
-    <Example />
     <Footer title="grace" />
     </BrowserRouter>
   </StrictMode>

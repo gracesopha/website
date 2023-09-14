@@ -15,7 +15,8 @@ export function Footer({ title = "" }) {
           <Link to="/">home</Link>
           <Link to="/Contact">contact</Link>
           <Link to="/Projects">projects</Link>
-        </nav>
+      </nav>
+      <p className="footer">© 2023 GRACE SOPHA</p>
     </footer>
   );
 }

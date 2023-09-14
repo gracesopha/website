@@ -58,6 +58,19 @@ body {
     font-style: normal;
     margin-right: 2em;
   }
+
+  .footer {
+    font-family: input-mono, monospace;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    position: relative;
+    top: 1em;
+    left: 30em;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
   
   footer {
     position: fixed;
@@ -145,11 +158,13 @@ body {
     line-height: 1.2;
     position: absolute;
   }
+
+    /* PARALLAX VISUAL EFFECT */
   
   section {
-    padding-top: 80vh;
-    padding-bottom: 80vh;
-    position: relative;
+    padding-top: 150vh;
+    padding-bottom: 100vh;
+    position: absolute;
   }
   
   img {
@@ -171,8 +186,6 @@ body {
     bottom: 100px;
   }
 
-  /* PARALLAX VISUAL EFFECT */
-
   .parallax {
     overflow: hidden;
     letter-spacing: -2px;
@@ -186,7 +199,7 @@ body {
   .parallax .scroller {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 64px;
+    font-size: 5em;
     display: flex;
     white-space: nowrap;
     display: flex;
@@ -195,10 +208,11 @@ body {
   
   .parallax span {
     display: block;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   /* CAROUSEL */
+
   
   #root {
     position: absolute;
@@ -219,6 +233,8 @@ body {
     padding: 20px 0;
     flex: 0 0 1100px;
     margin: 0 auto;
+    position: relative;
+    top: 50em;
   }
   
   li {
