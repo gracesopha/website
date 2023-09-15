@@ -1,16 +1,11 @@
 // framer page footer
 import React from "react";
 import { Link } from "react-router-dom";
-import home from "../imgs/home.png"
 
 export function Footer({ title = "" }) {
   return (
     <footer>
-      <a
-        href="/"
-      >
-        <img id="homepage" alt="homepage" className="homepage" src={home}/>
-      </a>
+      <a href="/">♡</a>
       <nav>
           <Link to="/">home</Link>
           <Link to="/Contact">contact</Link>
