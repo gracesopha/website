@@ -1,6 +1,7 @@
 // navigation routes for the website
 import * as React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Link } from "react-scroll";
 import { Home } from "./Home";
 import { Contact } from "./Contact";
 import { Projects } from "./Projects";
