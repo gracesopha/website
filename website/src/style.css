@@ -69,7 +69,7 @@ body {
     font-style: normal;
     position: absolute;
     text-align: center;
-    top: 1.5em;
+    top: .5em;
     right: 1%;
   }
   
@@ -270,3 +270,20 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     padding: 100em 4em 4em 4em;
   }
+
+   /* INDV PROJECT PAGE */
+   
+   .post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: fixed;
+    left: 18%;
+    top: 28%;
+   }
+
+
+
+   .description {
+    overflow-y: scroll;
+   }
